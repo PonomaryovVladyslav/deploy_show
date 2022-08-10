@@ -1,7 +1,7 @@
 import os
 
 SECRET_KEY = os.environ.get('SECRET', '')
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = ['18.185.84.179']
 
 DATABASES = {
